@@ -1,0 +1,343 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+
+@font-face {
+    font-family: "Brasika Display";
+    src: url(fonts/brasika-display.otf);
+}
+
+header{width: 100%;
+height: 80px;
+background-color: #344C36;
+font-family: "Brasika Display";
+display: grid;
+grid-template-columns: 0.2fr 0.2fr 0.5fr 3fr 0.6fr 0.4fr 0.3fr 0.3fr 0.4fr;
+grid-template-rows: 80px;
+color: white;
+font-weight: 100;}
+
+#brilho{grid-column: 2;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+#nome{grid-column: 3;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+h1{font-size: 25px;
+line-height: 0.8;
+}
+
+#sobremim{grid-column: 6;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+#sobremim h4{ font-family: "Raleway", sans-serif;
+color: white;}
+
+#projetos{grid-column: 7;
+display: flex;
+justify-content: center;
+align-items: center;}
+    
+#projetos h4{ font-family: "Raleway", sans-serif;
+color: white;}
+
+#contato{grid-column: 8;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+svg{width: 15%;
+height: 20px;}
+
+#inicio{width: 100%;
+height: 750px;
+background-color: #344C36;
+display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+grid-template-rows: 800px;
+position: relative;}
+
+#portf{font-family: "Brasika Display";
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-self: center;}
+
+.portf{font-size: 280px;
+color: transparent;
+-webkit-text-stroke-width: 3px;
+-webkit-text-stroke-color: #FAAD1B;}
+
+
+.portf1{font-size: 280px;
+color: #ebe1ce;
+position: relative;
+z-index: 99;}
+
+#retangulo{width: 30%;
+height: 700px;
+background-color: #ebe1ce;
+position: absolute;
+top: 230px;
+left: 340px;}
+
+
+#retangulo3{width: 30%;
+height: 250px;
+background-color: #000000;
+position: absolute;
+top: 700px;
+left: 160px;
+opacity: 0.6;
+display: flex;
+justify-content: center;
+align-items: center;}
+    
+#retangulo3 p{width: 70%;
+color: white;
+font-family: "Raleway", sans-serif;
+font-size: 20px;
+text-align: left;}
+
+#retangulopreto{background-color: black;
+width: 100%;
+height: 300px;}
+
+#about{width: 100%;
+height: 100vh;}
+
+#partebranca{background-color: #F6F1E3;
+height: 80vh;
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 80vh;
+position: relative;}
+
+#parteverde{background-color: #344C36;
+height: 60vh;
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 60vh;}
+    
+#textosabout{width: 100%;
+height: 100vh;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 50px 100px 300px 420px;}
+
+#textosabout h4{font-family: "Brasika Display";
+margin-left: 300px;
+font-size: 20px;
+margin-top: 20px;}
+
+#textosabout h2{font-size: 90px;
+font-family: "Brasika Display";
+grid-row: 3;
+margin-left: 300px;}
+
+#textosabout p{grid-row: 4;
+margin-left: 300px;
+color: #000000;
+width: 40%;
+font-size: 18px;
+font-family: "Raleway", sans-serif;}
+
+#retanguloverde{
+    background-color: #344C36;
+    position: absolute;
+    width: 20%;
+    height: 40vh;
+    right: 400px;
+    top: 400px;
+    
+}
+
+#circulo{width: 75%;
+height: 265px;
+border-radius: 1000px;
+background-color: #F6F1E3;
+margin-left: 50px;
+margin-top: 50px;
+position: relative;}
+
+#circulo img{width: 120%;
+height: 40vh;
+position: absolute;
+margin-left: -30px;
+top: -50px;}
+
+#retangulopreto2{background-color: #000000;
+position: absolute;
+width: 20%;
+z-index: 99999;
+height: 15vh;
+right: 400px;
+top: 740px;}
+
+#retangulopreto2 h1{color: white;
+    font-family: "Brasika Display";
+    
+font-size: 30px;
+margin-top: 20px;
+margin-left: 20px;}
+
+#retangulopreto2 h3{color: white;
+    font-family: "Raleway", sans-serif;
+font-size: 16px;
+margin-top: 20px;
+margin-left: 20px;
+line-height: 1px;}
+
+#resume{width: 20%;
+height: 40vh;
+
+display: flex;
+flex-flow: column;
+align-items: flex-start;
+font-family: "Brasika Display";
+position: absolute;
+top: 800px;
+left: 1100px;}
+
+#resume h1{color: transparent;
+    font-size: 90px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #FAAD1B;
+    line-height: 1.2;
+    
+   
+}
+
+#educação{width: 100%;
+height: 60vh;
+display: grid;
+grid-column: 1;
+grid-template-columns: 1fr;
+grid-template-rows: 150px 100px 400px;
+position: relative;}
+
+#educação h1{color: #FAAD1B;
+font-size: 50px;
+font-family: "Brasika Display";
+margin-left: 200px;
+position: absolute;
+top: 100px;}
+
+#escola{display: flex;
+flex-flow: row;
+margin-left: 150px;
+width: 30%;
+height: 50px;
+grid-row: 2;
+top: 20px;
+position: absolute;}
+
+#escola h2{color: white;
+font-family: "Brasika Display";
+font-size: 18px;}
+
+#escola h6{color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px; 
+padding-left: 10px;}
+
+#escola img{ width: 10%;
+height: 30px;
+margin-right: 20px;}
+
+#cursos{width: 50%;
+height: 30vh;
+background-color: #FAAD1B;
+grid-row: 3;
+margin-left: 200px;
+top: 20px;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 70px 70px 80px 70px;}
+
+#cursos h1{color: #000000;
+grid-row: 2;
+margin-top: 2vh;
+margin-left: 0;}
+
+#cisco1{grid-row: 3;
+display: flex;
+margin-top: 2vh;
+align-items: center;
+margin-left: 10vh;
+font-family: "Raleway", sans-serif;}
+
+#cisco2{grid-row: 2;
+    display: flex;
+align-items: center;
+margin-left: 10vh;
+font-family: "Raleway", sans-serif;}
+
+#cisco2::after{content: "";
+background-color: black;
+width: 10%;
+height: 1px;
+transform: rotate(90deg);
+margin-top: 9vh;
+margin-left: -20vh;}
+
+.brilho-curso{width: 5%;
+height: 2vh;
+margin-right: 15px;}
+
+#resume h4{grid-column: 2;
+color: #FAAD1B;
+position: absolute;
+top: 270px;
+width: 80%;
+right: -60px;
+font-size: 25px;}
+
+#icons{width: 100%;
+height: 50vh;
+display: flex;
+flex-flow: row;}
+
+#colunadeimagem1{width: 100%;
+height: 10vh;
+flex-direction: column;
+display: flex;
+margin-top: 30px;}
+
+#colunadeimagem2{width: 100%;
+    height: 10vh;
+    flex-direction: column;
+    display: flex;
+    margin-top: 30px;}
+
+#colunaimagem2 img{margin-top: 20px;}
+
+#retangulopreto{background-color: black;
+    width: 100%;
+    height: 300px;}
+
+#projetos{width: 100%;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: column;
+background-color: #ffffff;
+position: relative;}
+
+#projetos h1{color: transparent;
+    font-size: 110px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #344C36;
+    line-height: 1.2;
+    font-family: "Brasika Display";
+    position: relative;
+}
